@@ -1,3 +1,7 @@
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 /* Color custom properties */
 
 :root,
@@ -2241,9 +2245,6 @@ input[type='checkbox'] {
   z-index: 1;
 }
 
-.header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-}
 
 .header {
   display: grid;
@@ -2601,7 +2602,7 @@ details[open] > .header__submenu {
 
 .header--top-center .header__inline-menu,
 .header--top-center .header__heading-link {
-  margin-left: 0;
+  margin-left: 3rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -2618,7 +2619,7 @@ details[open] > .header__submenu {
   }
 
   .header--middle-left .header__inline-menu {
-    margin-left: 0;
+    margin-left: 10rem;
   }
 }
 
@@ -2627,13 +2628,16 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
+  font-size: 16px;
   padding: 1.2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-base-accent-2));
 }
 
 .header__menu-item span {
@@ -2659,7 +2663,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-base-accent-2));
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
