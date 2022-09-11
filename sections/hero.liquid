@@ -1,0 +1,24 @@
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="hero-image section"> 
+    <img src="{{ section.settings.image | image_url }}" >
+</div>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

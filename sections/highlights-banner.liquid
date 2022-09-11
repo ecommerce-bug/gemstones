@@ -1,0 +1,47 @@
+<div>
+    <p>Highlights Banner</p>
+</div>
+
+{% schema %}
+{
+    "name": "Highlights Banner",   
+    "blocks": 
+      [
+        {
+            "type": "icon_block",            
+            "name": "Icon Block",
+            "settings": [             
+                {
+                "type" : "image_picker",
+                "id" : "image_id",
+                "label" : "Select Image"
+                },                
+                {
+                    "id": "custom_text_title",
+                    "type": "text",
+                    "label": "heading",
+                    "default": "Title"
+                },
+                {
+                    "id": "custom_text_body",
+                    "type": "richtext",
+                    "label": "Add custom text below",
+                    "default": "<p>Add your text here</p>"
+                },
+                {
+                    "id": "url",
+                    "type": "url",
+                    "label": "Link"                    
+                }
+
+            ]
+        }
+    ],
+    "presets": [
+    {
+        "name": "Highlights Banner"        
+    }
+    ]
+
+}
+{% endschema %}
