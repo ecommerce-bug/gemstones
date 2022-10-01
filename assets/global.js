@@ -907,6 +907,8 @@ $(document).ready(function(){
  //  Initialize Swiper
 let swiper = new Swiper(".mySwiper", {
  direction: "vertical",
+  speed: 400,
+  spaceBetween: 100,
  pagination: {
    el: ".swiper-pagination",
    clickable: true,
