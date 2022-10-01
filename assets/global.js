@@ -910,9 +910,7 @@ const swiper = new Swiper(".mySwiper", {
   loop: true,
   speed: 2000,  
  pagination: {
-   el: ".swiper-pagination",
-   clickable: true,
-   hide: true,
+   el: ".swiper-pagination",  
  },
 });
 
