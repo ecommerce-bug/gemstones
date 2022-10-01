@@ -905,7 +905,7 @@ customElements.define('variant-radios', VariantRadios);
 
 $(document).ready(function(){
  //  Initialize Swiper
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".announcement-slider", {
   direction: 'horizontal',
   loop: true,
   autoplay: {
