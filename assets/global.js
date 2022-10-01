@@ -917,7 +917,10 @@ const swiper = new Swiper(".announcement-slider", {
   prevButton: '.swiper-button-prev',
   spaceBetween: 0,
   parallax: true,
-
+  pagination: {
+   el: ".swiper-pagination",
+   clickable: true,
+ },
 });
 
 })
