@@ -911,6 +911,12 @@ const swiper = new Swiper(".mySwiper", {
   autoplay: {
     delay: 2000,
   },
+  pagination: '.swiper-pagination',
+  paginationClickable: true,
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  spaceBetween: 0,
+  parallax: true,
 
 });
 
