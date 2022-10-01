@@ -908,7 +908,7 @@ $(document).ready(function(){
 const swiper = new Swiper(".mySwiper", {
   direction: 'horizontal',
   loop: true,
-  speed: 2000,  
+  speed: 100,  
  pagination: {
    el: ".swiper-pagination",  
  },
