@@ -906,9 +906,9 @@ customElements.define('variant-radios', VariantRadios);
 $(document).ready(function(){
  //  Initialize Swiper
 let swiper = new Swiper(".mySwiper", {
- direction: "vertical",
-  speed: 2000,
-  // spaceBetween: 100,
+  direction: 'vertical',
+  loop: true,
+  speed: 2000,  
  pagination: {
    el: ".swiper-pagination",
    clickable: true,
