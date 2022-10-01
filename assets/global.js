@@ -903,19 +903,3 @@ class VariantRadios extends VariantSelects {
 customElements.define('variant-radios', VariantRadios);
 
 
-$(document).ready(function(){
- //  Initialize Swiper
-const swiper = new Swiper(".mySwiper", {
-  direction: 'vertical',
-  loop: true,
-  speed: 100,  
- pagination: {
-   el: ".swiper-pagination",  
- },
-  navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-});
-
-})
