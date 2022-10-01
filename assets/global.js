@@ -904,13 +904,14 @@ customElements.define('variant-radios', VariantRadios);
 
 
 $(document).ready(function(){
-  $('.announcement-slider').each(function(){ 
-    $(this).slick({
-      infinite: true,
-      // slidesToShow: numslides,
-      // slidesToScroll: numscroll,
-      dots: false,
-      arrows: true
-    });
-  });
+ //  Initialize Swiper
+let swiper = new Swiper(".mySwiper", {
+ direction: "vertical",
+ pagination: {
+   el: ".swiper-pagination",
+   clickable: true,
+   hide: true,
+ },
+});
+
 })
