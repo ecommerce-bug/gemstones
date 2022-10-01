@@ -2,3 +2,13 @@
   background-color:red;
   color:#fff;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+   outline: none;
+}
+
+
+div.swiper-button-next, div.swiper-button-prev {
+  top: 70%
+}
