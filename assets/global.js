@@ -905,7 +905,7 @@ customElements.define('variant-radios', VariantRadios);
 
 $(document).ready(function(){
  //  Initialize Swiper
-let swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwiper", {
   direction: 'vertical',
   loop: true,
   speed: 2000,  
