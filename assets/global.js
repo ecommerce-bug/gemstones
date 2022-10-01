@@ -910,7 +910,7 @@ $(document).ready(function(){
       // slidesToShow: numslides,
       // slidesToScroll: numscroll,
       dots: false,
-      arrows: false
+      arrows: true
     });
   });
 })
