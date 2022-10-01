@@ -910,17 +910,15 @@ const swiper = new Swiper(".announcement-slider", {
   loop: true,
   autoplay: {
     delay: 2000,
-  },
-  pagination: '.swiper-pagination',
-  paginationClickable: true,
+  }, 
   nextButton: '.swiper-button-next',
   prevButton: '.swiper-button-prev',
   spaceBetween: 0,
   parallax: true,
-  pagination: {
-   el: ".swiper-pagination",
-   clickable: true,
- },
+ navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+   },
 });
 
 })
