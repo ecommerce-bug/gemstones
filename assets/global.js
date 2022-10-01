@@ -909,7 +909,7 @@ const swiper = new Swiper(".mySwiper", {
   direction: 'horizontal',
   loop: true,
   autoplay: {
-    delay: 1000,
+    delay: 2000,
   },
 
 });
