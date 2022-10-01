@@ -908,7 +908,10 @@ $(document).ready(function(){
 const swiper = new Swiper(".mySwiper", {
   direction: 'horizontal',
   loop: true,
-  
+  autoplay: {
+    delay: 1000,
+  },
+
 });
 
 })
