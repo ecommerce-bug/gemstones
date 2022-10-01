@@ -1,20 +1,12 @@
 {{ 'section-announcement-slider.css' | asset_url | stylesheet_tag }}
 
 <!-- Slider main container -->
-<div class="announcement-slider-wrapper">
-    <div class=" announcement-slider__title title-wrapper title-wrapper--no-top-margin page-width">
-        <h2 id="SectionHeading-{{ section.id }}" class="title {{ section.settings.heading_size }}">{{ section.settings.header }}</h2>
-    </div>
+<div class="announcement-slider-wrapper">    
     <div class= "announcement-slider__item-list page-width">
-        <ul data-slides="{{ section.settings.columns_desktop }}" data-scroll="{{ section.settings.columns_scroll }}" class="announcement-slider">
-            {%- for block in section.blocks -%}
-                <a href="{{ block.settings.collection_slider.url }}">
-                    <li class = "announcement-slider__item">
-                        <img src="{{ block.settings.collection_slider.image | img_url: 'Large' }}">                
-                        <h3 >{{ block.settings.collection_slider.title }}
-                    </li>
-                </a>
-            {%- endfor -%}
+        <ul data-slides="{{ section.settings.columns_desktop }}" data-scroll="{{ section.settings.columns_scroll }}" class="announcement-slider">                       
+              <li class = "announcement-slider__item">Slider 1</li>
+             <li class = "announcement-slider__item">Slider 1</li>
+             <li class = "announcement-slider__item">Slider 1</li>      
         </ul>
     </div>
 </div>
