@@ -909,8 +909,8 @@ $(document).ready(function(){
       infinite: true,
       // slidesToShow: numslides,
       // slidesToScroll: numscroll,
-      dots: true,
-      arrows: true
+      dots: false,
+      arrows: false
     });
   });
 })
